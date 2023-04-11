@@ -9,6 +9,8 @@ on:
 
 jobs:
   deploy:
+    permissions:
+      pull-requests: write
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
