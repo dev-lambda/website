@@ -77,6 +77,23 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Légal',
+            items: [
+              {
+                label: 'Mentions légales',
+                to: '/terms/mentions',
+              },
+              {
+                label: "Conditions d'utilisation",
+                to: '/terms/conditions',
+              },
+              {
+                label: 'Protection de la vie privée',
+                to: '/terms/donnees-personnelles',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Dev Lambda.`,
       },
