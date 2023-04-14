@@ -22,5 +22,6 @@ Hébergeur du site web : GitHub, Inc., 88 Colin P Kelly Jr. Street, San Francisc
 
 ## Coordonnées de contact
 
-- Adresse e-mail : **[contact@devlambda.com](mailto:contact@devlambda.com)**
-- Téléphone : +33 6 32 68 67 20
+Adresse e-mail : **[contact@devlambda.com](mailto:contact@devlambda.com)**
+
+Téléphone : **[+33 6 32 68 67 20](tel:+33%206%2032%2068%2067%2020)**
