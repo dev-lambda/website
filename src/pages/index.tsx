@@ -3,10 +3,10 @@ import clsx from 'clsx';
 // import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import {Feature, FeatureItem} from '@site/src/components/Features';
-import { HomepageSections } from '../components/Section';
+// import {Feature, FeatureItem} from '@site/src/components/Features';
+import { HomepageSections } from '@site/src/components/Section';
 import styles from './index.module.css';
-import { Sections } from './Sections';
+import { Sections } from '@site/src/content/Sections';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();

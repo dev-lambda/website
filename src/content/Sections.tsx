@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
+// import ReactMarkdown from 'react-markdown';
 import { SectionContent } from '@site/src/components/Section';
 
 // Expert software architecture consulting
