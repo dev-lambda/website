@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Dev Lambda',
-  tagline: 'A remarkable dev like any other',
+  tagline: 'Software architecture',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -57,9 +57,9 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/dev lambda – logo.svg',
         },
-        items: [{ to: '/blog', label: 'Blog', position: 'left' }],
+        // items: [{ to: '/blog', label: 'Blog', position: 'left' }],
       },
       footer: {
         style: 'dark',

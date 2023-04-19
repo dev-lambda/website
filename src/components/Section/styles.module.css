@@ -1,0 +1,18 @@
+.section {
+  /* display: flex; */
+  align-items: center;
+  width: 100%;
+}
+
+.champagne {
+  background-color: #FFE9CE;
+}
+
+.sectionSvg {
+  height: 500px;
+  width: 500px;
+}
+
+.rowReverse {
+  flex-direction: row-reverse;
+}
