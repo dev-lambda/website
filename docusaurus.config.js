@@ -28,8 +28,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fr',
+    locales: ['fr', 'en'],
   },
 
   presets: [
@@ -44,6 +44,12 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
@@ -52,14 +58,30 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/website-social-card.jpg',
+      // image: 'img/website-social-card.jpg',
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/dev lambda – logo.svg',
         },
-        // items: [{ to: '/blog', label: 'Blog', position: 'left' }],
+        hideOnScroll: true,
+        items: [
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+        ],
       },
       footer: {
         style: 'dark',
