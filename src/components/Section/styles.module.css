@@ -8,9 +8,17 @@
   background-color: #FFE9CE;
 }
 
+
 .sectionSvg {
   height: 500px;
   width: 500px;
+}
+
+@media screen and (max-width: 996px) {
+  .sectionSvg {
+    height: 400px;
+    width: 400px;
+  }
 }
 
 .rowReverse {

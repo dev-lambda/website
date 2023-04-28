@@ -283,7 +283,7 @@
     "description": "Homepage offering section description: architect"
   },
   "content.serviceOffering.legacy.title": {
-    "message": "Modernisation des systèmes hérités",
+    "message": "Modernisation des systèmes legacy",
     "description": "Homepage offering section title: legacy"
   },
   "content.serviceOffering.legacy.description": {

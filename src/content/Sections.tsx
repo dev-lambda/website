@@ -52,8 +52,8 @@ import Translate, {translate} from '@docusaurus/Translate';
 
 const services = [
   {service: 'architect', image: require(`@site/static/img/Blueprint.svg`)},
-  {service: 'legacy', image: require(`@site/static/img/Milestones of business projects.svg`)},
-  {service: 'roadmap', image: require(`@site/static/img/Server technician adjusting wiring.svg`)},
+  {service: 'legacy', image: require(`@site/static/img/Middleware.svg`)},
+  {service: 'roadmap', image: require(`@site/static/img/Milestones of business projects.svg`)},
   {service: 'cloud', image: require(`@site/static/img/Server technician adjusting wiring.svg`)},
   {service: 'codeReview', image: require(`@site/static/img/Software Developer.svg`)},
   {service: 'training', image: require(`@site/static/img/Student Discussing in library.svg`)},
