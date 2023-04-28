@@ -7,15 +7,15 @@
         <lastBuildDate>Tue, 11 Apr 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <item>
-            <title><![CDATA[Welcome]]></title>
+            <title><![CDATA[Bienvenu]]></title>
             <link>https://devlambda.com/blog/welcome</link>
             <guid>https://devlambda.com/blog/welcome</guid>
             <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hello World]]></description>
-            <content:encoded><![CDATA[<p>Hello World</p>]]></content:encoded>
-            <category>hello</category>
+            <description><![CDATA[Coucou les gars]]></description>
+            <content:encoded><![CDATA[<p>Coucou les gars</p>]]></content:encoded>
+            <category>bonjour</category>
         </item>
     </channel>
 </rss>

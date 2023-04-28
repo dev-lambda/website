@@ -8,16 +8,16 @@
     <subtitle>Dev Lambda Blog</subtitle>
     <icon>https://devlambda.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
+        <title type="html"><![CDATA[Bienvenu]]></title>
         <id>https://devlambda.com/blog/welcome</id>
         <link href="https://devlambda.com/blog/welcome"/>
         <updated>2023-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hello World]]></summary>
-        <content type="html"><![CDATA[<p>Hello World</p>]]></content>
+        <summary type="html"><![CDATA[Coucou les gars]]></summary>
+        <content type="html"><![CDATA[<p>Coucou les gars</p>]]></content>
         <author>
             <name>Draltan Marin</name>
             <uri>https://github.com/dral/</uri>
         </author>
-        <category label="hello" term="hello"/>
+        <category label="bonjour" term="bonjour"/>
     </entry>
 </feed>
