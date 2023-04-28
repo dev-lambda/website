@@ -269,5 +269,73 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "content.tagline": {
+    "message": "Software architecture",
+    "description": "The main site tagline to show on the homepage"
+  },
+  "content.serviceOffering.architect.title": {
+    "message": "Expert software architecture consulting",
+    "description": "Homepage offering section title: Expert architect"
+  },
+  "content.serviceOffering.architect.description": {
+    "message": "Get personalized advice and guidance on designing scalable and efficient software systems that align with your business goals.",
+    "description": "Homepage offering section description: Expert architect"
+  },
+  "content.serviceOffering.legacy.title": {
+    "message": "Modernization of legacy systems",
+    "description": "Homepage offering section title: Expert architect"
+  },
+  "content.serviceOffering.legacy.description": {
+    "message": "Transform outdated technologies into modern, microservice-oriented architectures to improve scalability, maintainability, and performance.",
+    "description": "Homepage offering section description: Expert architect"
+  },
+  "content.serviceOffering.roadmap.title": {
+    "message": "Strategic technical roadmap development",
+    "description": "Homepage offering section title: Expert architect"
+  },
+  "content.serviceOffering.roadmap.description": {
+    "message": "Plan for future growth with a customized roadmap that outlines key technology initiatives to support your long-term business objectives.",
+    "description": "Homepage offering section description: Expert architect"
+  },
+  "content.serviceOffering.cloud.title": {
+    "message": "Cloud migration and deployment expertise",
+    "description": "Homepage offering section title: Expert architect"
+  },
+  "content.serviceOffering.cloud.description": {
+    "message": "Seamlessly migrate your applications to the cloud and optimize them for scalability, reliability, and cost-effectiveness using industry-leading technologies.",
+    "description": "Homepage offering section description: Expert architect"
+  },
+  "content.serviceOffering.codeReview.title": {
+    "message": "Code review and optimization",
+    "description": "Homepage offering section title: Expert architect"
+  },
+  "content.serviceOffering.codeReview.description": {
+    "message": "Enhance the quality and performance of your codebase through thorough code reviews and expert recommendations for refactoring and optimization.",
+    "description": "Homepage offering section description: Expert architect"
+  },
+  "content.serviceOffering.training.title": {
+    "message": "Customized technical training and mentoring",
+    "description": "Homepage offering section title: Expert architect"
+  },
+  "content.serviceOffering.training.description": {
+    "message": "Empower your development teams with tailored training and mentoring programs to upskill their capabilities and stay updated with the latest best practices.",
+    "description": "Homepage offering section description: Expert architect"
+  },
+  "content.serviceOffering.automation.title": {
+    "message": "DevOps and automation solutions",
+    "description": "Homepage offering section title: Expert architect"
+  },
+  "content.serviceOffering.automation.description": {
+    "message": "Streamline your software development and deployment processes with automated DevOps practices, including continuous integration, continuous delivery, and infrastructure as code.",
+    "description": "Homepage offering section description: Expert architect"
+  },
+  "content.serviceOffering.recruitment.title": {
+    "message": "Team recruitment and talent acquisition",
+    "description": "Homepage offering section title: Expert architect"
+  },
+  "content.serviceOffering.recruitment.description": {
+    "message": "Access our extensive network of industry professionals and let us help you find the right talent for your software development team, ensuring a skilled and cohesive workforce.",
+    "description": "Homepage offering section description: Expert architect"
   }
 }

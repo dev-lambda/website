@@ -7,6 +7,7 @@ import Layout from '@theme/Layout';
 import { HomepageSections } from '@site/src/components/Section';
 import styles from './index.module.css';
 import { Sections } from '@site/src/content/Sections';
+import Translate, {translate} from '@docusaurus/Translate';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -14,7 +15,14 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          <Translate
+            id="content.tagline"
+            description='The main site tagline to show on the homepage'
+          >
+          {siteConfig.tagline}
+          </Translate>
+          </p>
       </div>
     </header>
   );
@@ -25,7 +33,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={siteConfig.title}
-      description={siteConfig.tagline}>
+      description={translate({id: 'content.tagline'})}>
       <HomepageHeader />
       <main>
         <HomepageSections sections={Sections}/>

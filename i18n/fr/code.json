@@ -76,7 +76,7 @@
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} tagués avec « {tagName} »",
+    "message": "{nPosts} avec le tag « {tagName} »",
     "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
@@ -269,5 +269,73 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "content.tagline": {
+    "message": "Architecture logicielle",
+    "description": "The main site tagline to show on the homepage"
+  },
+  "content.serviceOffering.architect.title": {
+    "message": "Conseil d'architecture logicielle expert",
+    "description": "Homepage offering section title: architect"
+  },
+  "content.serviceOffering.architect.description": {
+    "message": "Conseils personnalisés pour concevoir des systèmes logiciels évolutifs et efficaces en accord avec les objectifs commerciaux.",
+    "description": "Homepage offering section description: architect"
+  },
+  "content.serviceOffering.legacy.title": {
+    "message": "Modernisation des systèmes hérités",
+    "description": "Homepage offering section title: legacy"
+  },
+  "content.serviceOffering.legacy.description": {
+    "message": "Transformation des technologies obsolètes en architectures modernes orientées microservices.",
+    "description": "Homepage offering section description: legacy"
+  },
+  "content.serviceOffering.roadmap.title": {
+    "message": "Développement d'une feuille de route technique stratégique",
+    "description": "Homepage offering section title: roadmap"
+  },
+  "content.serviceOffering.roadmap.description": {
+    "message": "Planification de la croissance future avec une feuille de route personnalisée pour les initiatives technologiques soutenant les objectifs commerciaux à long terme.",
+    "description": "Homepage offering section description: roadmap"
+  },
+  "content.serviceOffering.cloud.title": {
+    "message": "Expertise en migration et déploiement dans le cloud",
+    "description": "Homepage offering section title: cloud"
+  },
+  "content.serviceOffering.cloud.description": {
+    "message": "Migration transparente des applications vers le cloud et optimisation pour la scalabilité, la fiabilité et la rentabilité.",
+    "description": "Homepage offering section description: cloud"
+  },
+  "content.serviceOffering.codeReview.title": {
+    "message": "Revue de code et optimisation",
+    "description": "Homepage offering section title: code review"
+  },
+  "content.serviceOffering.codeReview.description": {
+    "message": "Revue approfondie du code et recommandations d'experts pour les améliorations et optimisations du code.",
+    "description": "Homepage offering section description: code review"
+  },
+  "content.serviceOffering.training.title": {
+    "message": "Formation technique personnalisée et mentorat",
+    "description": "Homepage offering section title: training"
+  },
+  "content.serviceOffering.training.description": {
+    "message": "Programmes de formation et de mentorat sur mesure pour renforcer les compétences et les meilleures pratiques des équipes de développement.",
+    "description": "Homepage offering section description: training"
+  },
+  "content.serviceOffering.automation.title": {
+    "message": "Solutions DevOps et d'automatisation",
+    "description": "Homepage offering section title: automation"
+  },
+  "content.serviceOffering.automation.description": {
+    "message": "Rationalisez vos processus de développement et de déploiement de logiciels grâce à des pratiques DevOps automatisées, comprenant l'intégration continue, la livraison continue et l'infrastructure en tant que code.",
+    "description": "Homepage offering section description: automation"
+  },
+  "content.serviceOffering.recruitment.title": {
+    "message": "Recrutement d'équipe et acquisition de talents",
+    "description": "Homepage offering section title: recruitment"
+  },
+  "content.serviceOffering.recruitment.description": {
+    "message": "Accédez à notre vaste réseau de professionnels de l'industrie et laissez-nous vous aider à trouver les bons talents pour votre équipe de développement de logiciels, garantissant une main-d'œuvre qualifiée et cohérente.",
+    "description": "Homepage offering section description: recruitment"
   }
 }

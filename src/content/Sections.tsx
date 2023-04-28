@@ -1,6 +1,7 @@
 import React from 'react';
 // import ReactMarkdown from 'react-markdown';
 import { SectionContent } from '@site/src/components/Section';
+import Translate, {translate} from '@docusaurus/Translate';
 
 // Expert software architecture consulting
 // Get personalized advice and guidance on designing scalable and efficient software systems that align with your business goals.
@@ -48,77 +49,22 @@ import { SectionContent } from '@site/src/components/Section';
 // - Post-deployment monitoring and support for smooth transition
 // `}>
 // </ReactMarkdown>
-export const Sections: SectionContent[] = [
-  {
-    title: 'Expert software architecture consulting',
-    Svg: require('@site/static/img/Blueprint.svg').default,
-    description: (
-      <>
-        Get personalized advice and guidance on designing scalable and efficient software systems that align with your business goals.
-      </>
-    ),
-  },
-  {
-    title: 'Modernization of legacy systems',
-    Svg: require('@site/static/img/Middleware.svg').default,
-    description: (
-      <>
-        Transform outdated technologies into modern, microservice-oriented architectures to improve scalability, maintainability, and performance.
-      </>
-    ),
-  },
-  {
-    title: 'Strategic technical roadmap development',
-    Svg: require('@site/static/img/Milestones of business projects.svg').default,
-    description: (
-      <>
-        Plan for future growth with a customized roadmap that outlines key technology initiatives to support your long-term business objectives.
-      </>
-    ),
-  },
-  {
-    title: 'Cloud migration and deployment expertise',
-    Svg: require('@site/static/img/Server technician adjusting wiring.svg').default,
-    description: (
-      <>
-        Seamlessly migrate your applications to the cloud and optimize them for scalability, reliability, and cost-effectiveness using industry-leading technologies.
-      </>
-    ),
-  },
-  {
-    title: 'Code review and optimization',
-    Svg: require('@site/static/img/Software Developer.svg').default,
-    description: (
-      <>
-        Enhance the quality and performance of your codebase through thorough code reviews and expert recommendations for refactoring and optimization.
-      </>
-    ),
-  },
-  {
-    title: 'Customized technical training and mentoring',
-    Svg: require('@site/static/img/Student Discussing in library.svg').default,
-    description: (
-      <>
-        Empower your development teams with tailored training and mentoring programs to upskill their capabilities and stay updated with the latest best practices.
-      </>
-    ),
-  },
-  {
-    title: 'DevOps and automation solutions',
-    Svg: require('@site/static/img/Cool Robot.svg').default,
-    description: (
-      <>
-        Streamline your software development and deployment processes with automated DevOps practices, including continuous integration, continuous delivery, and infrastructure as code.
-      </>
-    ),
-  },
-  {
-    title: 'Team recruitment and talent acquisition',
-    Svg: require('@site/static/img/User research.svg').default,
-    description: (
-      <>
-        Access our extensive network of industry professionals and let us help you find the right talent for your software development team, ensuring a skilled and cohesive workforce.
-      </>
-    ),
-  },
+
+const services = [
+  {service: 'architect', image: require(`@site/static/img/Blueprint.svg`)},
+  {service: 'legacy', image: require(`@site/static/img/Milestones of business projects.svg`)},
+  {service: 'roadmap', image: require(`@site/static/img/Server technician adjusting wiring.svg`)},
+  {service: 'cloud', image: require(`@site/static/img/Server technician adjusting wiring.svg`)},
+  {service: 'codeReview', image: require(`@site/static/img/Software Developer.svg`)},
+  {service: 'training', image: require(`@site/static/img/Student Discussing in library.svg`)},
+  {service: 'automation', image: require(`@site/static/img/Cool Robot.svg`)},
+  {service: 'recruitment', image: require(`@site/static/img/User research.svg`)},
 ];
+
+export const Sections: SectionContent[] = services.map(({service, image}) => {
+  return {
+    title: translate({id: `content.serviceOffering.${service}.title`}),
+    Svg: image.default,
+    description: (<Translate id={`content.serviceOffering.${service}.description`}/>),
+  };
+});
