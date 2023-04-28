@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-// import Link from '@docusaurus/Link';
+import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 // import {Feature, FeatureItem} from '@site/src/components/Features';
@@ -12,7 +12,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">
@@ -22,7 +22,19 @@ function HomepageHeader() {
           >
           {siteConfig.tagline}
           </Translate>
-          </p>
+        </p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--primary button--lg"
+            to="https://calendly.com/draltan/30min">
+            <Translate
+              id="content.callToAction.scheduleCall"
+              description='Call to action to schedule a call'
+              >
+              Schedule a call
+            </Translate>
+          </Link>
+        </div>
       </div>
     </header>
   );

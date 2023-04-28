@@ -38,9 +38,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: false,
-        blog: {
-          showReadingTime: true,
-        },
+        blog: false,
+        // blog: {
+        //   showReadingTime: true,
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -72,11 +73,11 @@ const config = {
         },
         hideOnScroll: true,
         items: [
-          {
-            to: '/blog',
-            label: 'Blog',
-            position: 'left',
-          },
+          // {
+          //   to: '/blog',
+          //   label: 'Blog',
+          //   position: 'left',
+          // },
           {
             type: 'localeDropdown',
             position: 'right',
@@ -89,13 +90,21 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/dev-lambda',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/draltan',
+              },
+              {
+                label: 'Malt',
+                href: 'https://www.malt.fr/profile/draltanmarin',
               },
             ],
           },

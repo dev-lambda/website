@@ -274,6 +274,10 @@
     "message": "Software architecture",
     "description": "The main site tagline to show on the homepage"
   },
+  "content.callToAction.scheduleCall": {
+    "message": "Schedule a call",
+    "description": "Call to action to schedule a call"
+  },
   "content.serviceOffering.architect.title": {
     "message": "Expert software architecture consulting",
     "description": "Homepage offering section title: Expert architect"

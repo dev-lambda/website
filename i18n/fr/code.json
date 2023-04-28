@@ -274,6 +274,10 @@
     "message": "Architecture logicielle",
     "description": "The main site tagline to show on the homepage"
   },
+  "content.callToAction.scheduleCall": {
+    "message": "Organiser un appel",
+    "description": "Call to action to schedule a call"
+  },
   "content.serviceOffering.architect.title": {
     "message": "Conseil d'architecture logicielle expert",
     "description": "Homepage offering section title: architect"
