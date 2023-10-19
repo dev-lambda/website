@@ -44,7 +44,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={siteConfig.title}
+      title={translate({id: 'content.home.title'})}
       description={translate({id: 'content.tagline'})}>
       <HomepageHeader />
       <main>

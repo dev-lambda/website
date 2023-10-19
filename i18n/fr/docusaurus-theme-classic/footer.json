@@ -7,6 +7,10 @@
     "message": "Légal",
     "description": "The title of the footer links column with title=Légal in the footer"
   },
+  "link.title.Jobs": {
+    "message": "Offres d'emploi",
+    "description": "The title of the footer links column with title=Jobs in the footer"
+  },
   "link.item.label.Blog": {
     "message": "Blog",
     "description": "The label of footer link with label=Blog linking to /blog"
@@ -27,8 +31,20 @@
     "message": "Protection de la vie privée",
     "description": "The label of footer link with label=Protection de la vie privée linking to /terms/donnees-personnelles"
   },
+  "link.item.label.Responsable de Production Artistique": {
+    "message": "Responsable de Production Artistique",
+    "description": "The label of footer link with label=Responsable de Production Artistique linking to /jobs/ResponsableProductionArtistique"
+  },
   "copyright": {
     "message": "Copyright © 2023 Dev Lambda.",
     "description": "The footer copyright"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "The label of footer link with label=LinkedIn linking to https://www.linkedin.com/in/draltan"
+  },
+  "link.item.label.Malt": {
+    "message": "Malt",
+    "description": "The label of footer link with label=Malt linking to https://www.malt.fr/profile/draltanmarin"
   }
 }

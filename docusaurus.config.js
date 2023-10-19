@@ -125,6 +125,15 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Jobs',
+            items: [
+              {
+                label: 'Responsable de Production Artistique',
+                to: '/jobs/ResponsableProductionArtistique',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Dev Lambda.`,
       },

@@ -270,9 +270,11 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
+  "content.home.title": {
+    "message": "Accueil"
+  },
   "content.tagline": {
-    "message": "Architecture logicielle",
-    "description": "The main site tagline to show on the homepage"
+    "message": "Architecture logicielle"
   },
   "content.callToAction.scheduleCall": {
     "message": "Organiser un appel",
